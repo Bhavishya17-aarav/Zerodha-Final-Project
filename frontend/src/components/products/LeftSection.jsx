@@ -1,0 +1,4 @@
+const LeftSection = () => {
+  return <h1> leftsection</h1>
+}
+export default LeftSection;
