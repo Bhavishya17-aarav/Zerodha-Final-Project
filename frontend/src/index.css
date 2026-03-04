@@ -40,4 +40,13 @@
 .support-link a {
    margin-left: 15px;
 }
+.content {
+  display: block;      /* 100% width lene ke liye */
+  width: 100%;
+  margin-top: 20px;    /* Upper se margin */
+  text-align: center;  /* Center karne ke liye (optional) */
+}
+.link{
+  text-decoration: none;
+}
 

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 const Signin = () => {
   const [email, setEmail] = useState("");
@@ -52,6 +53,7 @@ const Signin = () => {
         <button className="btn btn-primary w-100" onClick={handleLogin}>
           Login
         </button>
+         <span className='content'>Don't Have An Account. Plaese <Link to = "/signup" className='link'>Sign-Up</Link></span>
       </div>
     </div>
   );

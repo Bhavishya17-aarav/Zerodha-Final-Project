@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = () => {
   const fullNameRef = useRef();
@@ -103,6 +103,7 @@ const Signup = () => {
               <button type="submit" className="btn btn-primary w-100">
                 Create Account
               </button>
+               <span className='content'>Already Have An Account? <Link to = "/signin" className='link'>Login</Link></span>
             </form>
           </div>
         </div>
